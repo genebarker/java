@@ -2,7 +2,7 @@
 # java - a headless Java JRE on Debian 8 Docker Container
 #
 # For usage info, just run the image without a command:
-#   $ docker run -rm genebarker/java
+#   $ docker run --rm genebarker/java
 #
 # Note: This image uses the openjdk-8-jre-headless package
 #       from jessie-backports (backports.debian.org).
