@@ -37,5 +37,16 @@ echo "  $ docker run --rm genebarker/java -help"
 echo 
 echo "To bypass script, just enter desired command, i.e.:"
 echo "  $ docker run -it genebarker/java bash"
+echo
+echo "Java version"
+echo "------------"
+java -version
+echo
+echo "Debian version"
+echo "--------------"
+echo -n "Version: "
+cat /etc/debian_version
+echo -n "Kernal: "
+uname -r
 
 exit 0
