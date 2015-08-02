@@ -33,4 +33,15 @@ To get java command line help:
 
 To bypass script, just enter desired command, i.e.:
   $ docker run -it genebarker/java bash
+
+Java version
+------------
+openjdk version "1.8.0_45-internal"
+OpenJDK Runtime Environment (build 1.8.0_45-internal-b14)
+OpenJDK 64-Bit Server VM (build 25.45-b02, mixed mode)
+
+Debian version
+--------------
+Version: 8.1
+Kernal: 4.1.0-x86_64
 ```
