@@ -36,9 +36,9 @@ To bypass script, just enter desired command, i.e.:
 
 Java version
 ------------
-openjdk version "1.8.0_45-internal"
-OpenJDK Runtime Environment (build 1.8.0_45-internal-b14)
-OpenJDK 64-Bit Server VM (build 25.45-b02, mixed mode)
+openjdk version "1.8.0_66-internal"
+OpenJDK Runtime Environment (build 1.8.0_66-internal-b01)
+OpenJDK 64-Bit Server VM (build 25.66-b01, mixed mode)
 
 Debian version
 --------------
