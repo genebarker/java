@@ -4,13 +4,13 @@ Headless Java JRE (OpenJDK) on Debian 8 (Jessie).
 
 For usage info, just run the image without a command:
 
-```text
+```Text
 $ docker run --rm genebarker/java
 ```
 
 Which produces the following:
 
-```text
+```Text
 java - a headless Java JRE on Debian 8 Docker Container
 
 usage: genebarker/java [-options] class [args...]
@@ -21,7 +21,7 @@ usage: genebarker/java [-options] class [args...]
 The application home folder is: /root/home
 
 To run the sample HelloWorld.class:
-  $ docker run --rm genebarker/java HelloWold
+  $ docker run --rm genebarker/java HelloWorld
 
 To run your java app, just mount its folder then run:
   $ docker run --rm \
@@ -37,11 +37,11 @@ To bypass script, just enter desired command, i.e.:
 Java version
 ------------
 openjdk version "1.8.0_66-internal"
-OpenJDK Runtime Environment (build 1.8.0_66-internal-b01)
-OpenJDK 64-Bit Server VM (build 25.66-b01, mixed mode)
+OpenJDK Runtime Environment (build 1.8.0_66-internal-b17)
+OpenJDK 64-Bit Server VM (build 25.66-b17, mixed mode)
 
 Debian version
 --------------
-Version: 8.1
-Kernal: 4.1.0-x86_64
+Version: 8.2
+Kernal: 4.1.5-x86_64-linode61
 ```

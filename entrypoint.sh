@@ -25,7 +25,7 @@ echo
 echo "The application home folder is: /root/home"
 echo
 echo "To run the sample HelloWorld.class:"
-echo "  $ docker run --rm genebarker/java HelloWold"
+echo "  $ docker run --rm genebarker/java HelloWorld"
 echo
 echo "To run your java app, just mount its folder then run:"
 echo "  $ docker run --rm \\"
