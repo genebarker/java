@@ -7,7 +7,7 @@
 # Note: This image uses the openjdk-8-jre-headless package
 #       from jessie-backports (backports.debian.org).
 #-----------------------------------------------------------
-FROM debian:8.2
+FROM debian:8.3
 
 MAINTAINER Eugene F. Barker <genebarker@gmail.com>
 
