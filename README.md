@@ -1,7 +1,16 @@
-Java
-----
+## Java
+
 Headless Java JRE (OpenJDK) on Debian 8 (Jessie).
 
+### Improvements
+
+This production proven image of headless Java on Debian just got a little better... Enjoy!
+
+- upgraded OS to Debian 8.5
+- upgraded OpenJDK Runtime Environment to 1.8.0_91
+- improved this readme
+
+## How to Use
 For usage info, just run the image without a command:
 
 ```Text
@@ -36,12 +45,12 @@ To bypass script, just enter desired command, i.e.:
 
 Java version
 ------------
-openjdk version "1.8.0_72-internal"
-OpenJDK Runtime Environment (build 1.8.0_72-internal-b15)
-OpenJDK 64-Bit Server VM (build 25.72-b15, mixed mode)
+openjdk version "1.8.0_91"
+OpenJDK Runtime Environment (build 1.8.0_91-8u91-b14-1~bpo8+1-b14)
+OpenJDK 64-Bit Server VM (build 25.91-b14, mixed mode)
 
 Debian version
 --------------
-Version: 8.3
+Version: 8.5
 Kernal: 4.4.0-x86_64-linode63
 ```
